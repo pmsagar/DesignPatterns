@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDemo", "SingletonDemo\SingletonDemo.csproj", "{3156A975-0E21-4BD1-B5A3-5B1EA794CED5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSafetySingletonDemo", "ThreadSafetySingletonDemo\ThreadSafetySingletonDemo.csproj", "{A2EC2AB4-6846-4682-BEF2-6A835289B242}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyEagerSingletonDemo", "LazyEagerSingletonDemo\LazyEagerSingletonDemo.csproj", "{7F71582C-C1C3-4912-B20A-BCCE8A889398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{330A0C61-FAE2-4B30-9137-EAF762D9320E}"
+	ProjectSection(SolutionItems) = preProject
+		SingletonRealWorldScenarios.txt = SingletonRealWorldScenarios.txt
+		SingletonVsStatic.txt = SingletonVsStatic.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticDemo", "StaticDemo\StaticDemo.csproj", "{7FF27408-1347-4696-B6C2-8C60C37E79B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{D97DAAA1-CFC8-40C6-B7A2-59628433DAAD}"
+	ProjectSection(SolutionItems) = preProject
+		Intro.txt = Intro.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{7CA524E4-899E-48E7-A988-BDD70D908547}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "Logger\Logger.csproj", "{AC2128E9-2AA7-4042-99AE-1E7AE9E8BD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{41DEC791-3335-404D-AE43-868E3F3ADB80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3156A975-0E21-4BD1-B5A3-5B1EA794CED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3156A975-0E21-4BD1-B5A3-5B1EA794CED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3156A975-0E21-4BD1-B5A3-5B1EA794CED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3156A975-0E21-4BD1-B5A3-5B1EA794CED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EC2AB4-6846-4682-BEF2-6A835289B242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EC2AB4-6846-4682-BEF2-6A835289B242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EC2AB4-6846-4682-BEF2-6A835289B242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EC2AB4-6846-4682-BEF2-6A835289B242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F71582C-C1C3-4912-B20A-BCCE8A889398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F71582C-C1C3-4912-B20A-BCCE8A889398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F71582C-C1C3-4912-B20A-BCCE8A889398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F71582C-C1C3-4912-B20A-BCCE8A889398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF27408-1347-4696-B6C2-8C60C37E79B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF27408-1347-4696-B6C2-8C60C37E79B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF27408-1347-4696-B6C2-8C60C37E79B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF27408-1347-4696-B6C2-8C60C37E79B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2128E9-2AA7-4042-99AE-1E7AE9E8BD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2128E9-2AA7-4042-99AE-1E7AE9E8BD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2128E9-2AA7-4042-99AE-1E7AE9E8BD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2128E9-2AA7-4042-99AE-1E7AE9E8BD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DEC791-3335-404D-AE43-868E3F3ADB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DEC791-3335-404D-AE43-868E3F3ADB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DEC791-3335-404D-AE43-868E3F3ADB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DEC791-3335-404D-AE43-868E3F3ADB80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3156A975-0E21-4BD1-B5A3-5B1EA794CED5} = {330A0C61-FAE2-4B30-9137-EAF762D9320E}
+		{A2EC2AB4-6846-4682-BEF2-6A835289B242} = {330A0C61-FAE2-4B30-9137-EAF762D9320E}
+		{7F71582C-C1C3-4912-B20A-BCCE8A889398} = {330A0C61-FAE2-4B30-9137-EAF762D9320E}
+		{7FF27408-1347-4696-B6C2-8C60C37E79B2} = {330A0C61-FAE2-4B30-9137-EAF762D9320E}
+		{AC2128E9-2AA7-4042-99AE-1E7AE9E8BD69} = {7CA524E4-899E-48E7-A988-BDD70D908547}
+		{41DEC791-3335-404D-AE43-868E3F3ADB80} = {7CA524E4-899E-48E7-A988-BDD70D908547}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D393F5AF-2E0E-4C62-834F-42DEE5624818}
+	EndGlobalSection
+EndGlobal

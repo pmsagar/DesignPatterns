@@ -1,0 +1,7 @@
+Factory 
+
+Creational design pattern
+Most used
+It will not expose the creational logic to the client
+Common Interface will refer to the newly created object
+

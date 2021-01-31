@@ -1,0 +1,8 @@
+Static is a keyword Singleton is a design pattern
+Static classes can contain only static members
+Singleton is a object creational pattern with only one instance of the class
+Singleton can implement interfaces , inherit from other classes and it alligns with OOPS concepts
+Singleton object can be passes as reference
+Singleton supports object disposal
+Singleton object is stored on heap, static is stored in stack
+Singleton object can be cloned.

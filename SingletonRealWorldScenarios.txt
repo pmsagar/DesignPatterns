@@ -1,0 +1,7 @@
+Logging
+Managing a connection pool
+Device management like printer pooling
+File Management
+Application Configuration Management
+Cache management
+Session based shopping cart
